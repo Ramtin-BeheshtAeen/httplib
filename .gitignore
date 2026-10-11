@@ -1,0 +1,57 @@
+# ===========================
+# Emacs
+# ===========================
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.\#*
+*.elc
+auto-save-list
+tramp
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa/
+*.rel
+/auto/
+.cask/
+dist/
+flycheck_*.el
+/server/
+.projectile
+.dir-locals-2.el
+/network-security.data
+*.~undo-tree~
+.lsp/
+.ccls-cache/
+.cache/
+
+# ===========================
+# Make / C / C++ build output
+# ===========================
+*.o
+*.ko
+*.obj
+*.d
+*.dep
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.out
+*.exe
+*.app
+*.gch
+*.pch
+build/
+bin/
+obj/
+config.log
+config.status
+autom4te.cache/
+compile_commands.json
